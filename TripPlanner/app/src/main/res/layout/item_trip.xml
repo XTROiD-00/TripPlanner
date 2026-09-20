@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" android:layout_marginTop="10dp" android:background="#FFFFFF" android:elevation="3dp">
+<TextView android:id="@+id/tvTripName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="20sp" android:textStyle="bold" android:textColor="#222222"/>
+<TextView android:id="@+id/tvTripDestination" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#1565C0" android:layout_marginTop="4dp"/>
+<TextView android:id="@+id/tvTripDates" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#666666" android:layout_marginTop="4dp"/>
+</LinearLayout>

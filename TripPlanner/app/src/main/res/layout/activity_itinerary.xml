@@ -1,0 +1,11 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Daily Itinerary" android:textSize="28sp" android:textStyle="bold" android:textColor="#1565C0" android:layout_marginBottom="16dp"/>
+<EditText android:id="@+id/etActivityTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Activity title"/>
+<EditText android:id="@+id/etActivityDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Date" android:focusable="false" android:clickable="true"/>
+<EditText android:id="@+id/etStartTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Start time (optional)"/>
+<EditText android:id="@+id/etEndTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="End time (optional)"/>
+<EditText android:id="@+id/etLocation" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Location (optional)"/>
+<EditText android:id="@+id/etActivityDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Description (optional)" android:minLines="2" android:gravity="top" android:inputType="textMultiLine"/>
+<Button android:id="@+id/btnAddActivity" android:layout_width="match_parent" android:layout_height="52dp" android:text="Add Activity" android:backgroundTint="#1565C0" android:textColor="#FFFFFF" android:layout_marginTop="10dp"/>
+<LinearLayout android:id="@+id/activityContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="16dp"/>
+</LinearLayout></ScrollView>

@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F5F7FA"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+<TextView android:id="@+id/tvTripName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="28sp" android:textStyle="bold" android:textColor="#1565C0"/>
+<TextView android:id="@+id/tvDestination" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginTop="6dp"/>
+<TextView android:id="@+id/tvDates" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#666666" android:layout_marginTop="4dp"/>
+<TextView android:id="@+id/tvNotes" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:background="#FFFFFF" android:layout_marginTop="16dp" android:layout_marginBottom="16dp"/>
+<Button android:id="@+id/btnItinerary" android:layout_width="match_parent" android:layout_height="52dp" android:text="Daily Itinerary"/>
+<Button android:id="@+id/btnSavedPlaces" android:layout_width="match_parent" android:layout_height="52dp" android:text="Saved Places"/>
+<Button android:id="@+id/btnMap" android:layout_width="match_parent" android:layout_height="52dp" android:text="Map"/>
+<Button android:id="@+id/btnExpenses" android:layout_width="match_parent" android:layout_height="52dp" android:text="Expenses"/>
+<Button android:id="@+id/btnAddExpense" android:layout_width="match_parent" android:layout_height="52dp" android:text="+ Add Expense" android:backgroundTint="#1565C0" android:textColor="#FFFFFF"/>
+<Button android:id="@+id/btnReminders" android:layout_width="match_parent" android:layout_height="52dp" android:text="Reminders"/>
+</LinearLayout></ScrollView>
