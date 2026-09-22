@@ -2,9 +2,9 @@ name: Android Build and Test
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
 
 jobs:
   build:
@@ -18,10 +18,10 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: "17"
 
-    - name: Make Gradle executable
-  run: chmod +x gradlew
+      - name: Make Gradle executable
+        run: chmod +x gradlew
 
-- name: Build and test
-  run: ./gradlew build
+      - name: Build and test
+        run: ./gradlew build
