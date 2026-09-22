@@ -4,5 +4,3 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.ksp) apply false // This adds the KSP tool to your project
 }
-
-// Top-level
