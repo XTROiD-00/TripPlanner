@@ -74,3 +74,5 @@ app/src/main/java/com/example/budgetx/
   the Reminders screen requests it automatically the first time it's opened.
 - Nominatim's usage policy caps free use at roughly 1 request/second — fine for a
   single user searching by hand, but not meant for bulk/automated querying.
+
+  link to the presentation: https://youtube.com/shorts/x15km_FW8Fg?si=tCYkOi-TDy2nqSwz
