@@ -64,9 +64,8 @@ app.post("/api/trips", (req, res) => {
 
     res.status(201).json(trip);
 });
+const PORT = process.env.PORT || 3000;
 
-const PORT = 3000;
-
-app.listen(PORT, () => {
-    console.log(`TripPlanner API running on http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`TripPlanner API running on port ${PORT}`);
 });
