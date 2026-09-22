@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: TripPlanner/TripPlanner
+        working-directory: TripPlanner
 
     steps:
       - name: Checkout repository
