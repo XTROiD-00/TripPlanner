@@ -1,18 +1,3 @@
-*.iml
-.gradle/
-/local.properties
-/.idea/
-.DS_Store
-/build/
-/app/build/
-/captures/
-.externalNativeBuild/
-.cxx/
-backend/node_modules/
-backend/.env
-backend/*.db
-
-# Release signing - never commit these
-keystore.properties
-*.jks
-*.keystore
+# Default ignored files
+/shelf/
+/workspace.xml
