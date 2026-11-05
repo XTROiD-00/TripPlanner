@@ -48,3 +48,6 @@ backend/                                       optional Express + SQLite API
 - Upgrading from an older database version clears local data (`fallbackToDestructiveMigration`).
 - Notifications need the POST_NOTIFICATIONS permission on Android 13+; the Reminders screen asks for it.
 - The receipt camera uses the system camera app, so the app itself needs no CAMERA permission.
+
+link to the video presentation:
+https://youtu.be/wy9OzkZZv6o?si=WR4fPm_MB5lwpwc1
